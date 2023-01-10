@@ -44,7 +44,8 @@
         </activity>
         <activity
             android:name=".ui.auth.SignInActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Manag.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

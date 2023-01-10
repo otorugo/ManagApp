@@ -10,4 +10,5 @@
     <string name="person_Name">Name</string>
     <string name="signup_image_description">A person looking a task board</string>
     <string name="sign_up_message">Type your name, email and password, to be registered with us!</string>
+    <string name="sign_in_message">Type your email and password, to use our app</string>
 </resources>
