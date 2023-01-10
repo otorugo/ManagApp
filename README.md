@@ -2,4 +2,4 @@
 
 ## Current State App Screenshot
 
-<img src="/demo_img/splashscreen.png" width="48">
+<img src="/demo_img/splashscreen.png" width="150">
