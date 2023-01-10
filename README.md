@@ -2,4 +2,4 @@
 
 ## Current State App Screenshot
 
-![Splashscreen](/demo_img/splashscreen.png "Splashscreen" | width=100)
+<img src="/demo_img/splashscreen.png" width="48">
