@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207046003725",
+    "project_id": "managapp-torugo",
+    "storage_bucket": "managapp-torugo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207046003725:android:dc505106f1847456d0d944",
+        "android_client_info": {
+          "package_name": "com.example.manag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207046003725-5bfgu0o7sjoohmu9tin29760fdsikpcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmOx3oIn3CAkFTRG9VVHLYJAircVzOTm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207046003725-5bfgu0o7sjoohmu9tin29760fdsikpcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

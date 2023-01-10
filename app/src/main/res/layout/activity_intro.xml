@@ -9,10 +9,75 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pacifico"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="@dimen/intro_screen_title_text_size" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/intro_text_description"
+            android:padding="@dimen/sm_page_padding"
+            android:src="@drawable/undraw_online_organizer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/lets_get_started_text_marginTop"
+            android:gravity="center"
+            android:text="@string/start_page"
+            android:textSize="@dimen/lets_get_started_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/intro_text_marginTop"
+            android:gravity="center"
+            android:text="@string/intro_text_description"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/m_page_padding">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/signin_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_margin"
+                android:layout_marginBottom="@dimen/btn_margin"
+                android:background="@drawable/shape_button_rounded"
+                android:text="@string/sign_in"
+                android:textColor="@color/accent_color_darker"
+                android:textColorHighlight="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/signup_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_margin"
+                android:layout_marginBottom="@dimen/btn_margin"
+                android:background="@drawable/white_shape_button_rounded"
+                android:text="@string/sign_up" />
+
+
+        </LinearLayout>
+
 
     </LinearLayout>
 
