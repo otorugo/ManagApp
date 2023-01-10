@@ -1,4 +1,6 @@
-# This is a project from a Udemy Course about Android
+# Managapp
+
+- This is a project from a Udemy Course of Android
 
 ## Current State App Screenshot
 
